@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kirala</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-light">
+    <div class="container mt-4">
+      <h3>Araç Kirala (ID {{ car_id }})</h3>
+      <form method="post">
+        <input type="date" class="form-control mb-2" name="start_date" />
+        <input type="date" class="form-control mb-2" name="end_date" />
+        <textarea
+          class="form-control mb-2"
+          name="note"
+          placeholder="Not"
+        ></textarea>
+        <button class="btn btn-success">Kirala</button>
+      </form>
+    </div>
+  </body>
+</html>
